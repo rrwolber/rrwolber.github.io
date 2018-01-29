@@ -9,8 +9,10 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Visualizations Page</title>
+  <title>Home Page</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,10 +29,10 @@
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
                 <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Plot 1</a></li>
-                  <li><a href="#">Plot 2</a></li>
-                  <li><a href="#">Plot 3</a></li>
-                  <li><a href="#">Plot 4</a></li>
+                  <li><a href="Cloudiness">Cloudiness</a></li>
+                  <li><a href="Humidity">Humidity</a></li>
+                  <li><a href="WindSpeed">WindSpeed</a></li>
+                  <li><a href="Temperature">Temperature</a></li>
                 </ul>
               </li>
               <li><a href="data">Data</a></li>
@@ -38,6 +40,31 @@
             </ul>
           </div>
         </nav>
+  
+  <div class="row">
+    <div class = "col-md-6">
+      <div class = "main_box">col-md-6</div>
+    </div>
+    <div class="col-md-6">
+      <div class = "secondary_box">
+        <div style="text-align:center"> 
+        <h1>Plots</h1>
+        </div>
+        <p><a href="Cloudiness">
+          <img class = "pretty1" src="Cloudiness_v_Latitude.png" alt = "Cloudiness" height ="150" width="150">
+        </a></p>
+        <p><a href="Humidity">
+          <img class = "pretty2" src="Humidity_v_Latitude.png" alt = "Cloudiness" height ="150" width="150">
+        </a></p>
+        <p><a href="WindSpeed">
+          <img class = "pretty3" src="WindSpeed_v_Latitude.png" alt = "Cloudiness" height ="150" width="150">
+        </a></p>
+        <p><a href="Temperature">
+          <img class = "pretty4" src="Temperature_v_Latitude.png" alt = "Cloudiness" height ="150" width="150">
+        </a></p>
+       </div>
+    </div>
+  </div>
 
 
 
