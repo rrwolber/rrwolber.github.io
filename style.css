@@ -56,3 +56,19 @@ body {
 h1 {
     padding: 10px;
 }
+
+.maingraph {
+    position: absolute;
+    right: 100px;
+    bottom: 10px;
+}
+
+.compare1 {
+    position: top right; 
+    top: 100px;  
+}
+
+.compare2 {
+    position: top left;
+    top: 100px;  
+}
